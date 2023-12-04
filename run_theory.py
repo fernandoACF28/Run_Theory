@@ -14,9 +14,9 @@ def run_theory(time_serie, threshold=-1): # The spi threshold for drought it's -
     # Compute Duration, Severity and Intensity
     df1 = (dataBase.loc[dataBase['masked'] == 0]
             .groupby('index')
-            .apply(lambda x: pd.DataFrame({'D': pd.Series(x.shape[0], index=[0]),
-                                           'S': pd.Series(abs(x['time_serie'].sum()), index=[0]),
-                                           'I': pd.Series(abs(x['time_serie'].sum())/x.shape[0], index=[0]),
+            .apply(lambda x: pd.DataFrame({'drought': pd.Series(x.shape[0], index=[0]),
+                                           'severity': pd.Series(abs(x['time_serie'].sum()), index=[0]),
+                                           'intensity': pd.Series(abs(x['time_serie'].sum())/x.shape[0], index=[0]),
                                            'date_ini': pd.Series(x.index[0], index=[0]),
                                            'date_fin': pd.Series(x.index[-1], index=[0])}))
             .reset_index(drop=True))
@@ -37,14 +37,15 @@ def run_theory(time_serie, threshold=-1): # The spi threshold for drought it's -
     else:
         n = np.append(Int, 0) + df1['D']
         Int = n[:-1]
-
+    
+    # reorganize to build the dataframe, as all data must be the same size
     a = len(df1['date_ini']) - len(Int)
     new_int = np.append(Int, np.full(a,np.nan))
 
-
-    return pd.DataFrame({'Duration': df1['D'].tolist(),
-            'Severity': df1['S'].tolist(),
-            'Intensity': df1['I'].tolist(),
+    # return the dataframe
+    return pd.DataFrame({'Duration': df1['drought'].tolist(),
+            'Severity': df1['severity'].tolist(),
+            'Intensity': df1['intensity'].tolist(),
             'Date_ini_drought': df1['date_ini'].astype(str).tolist(),
             'Date_fin_drought': df1['date_fin'].astype(str).tolist(),
             'Interarrival': new_int.tolist()})
