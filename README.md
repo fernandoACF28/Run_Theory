@@ -11,8 +11,9 @@ $$intensity = \frac{severity}{duration} \ \ \ \ \ \ \ \  \  \ \ \ \ \ \ \ \ \ \ 
 Na figura (1), temos a duração, severidade e intervalo entre eventos.
 
 <p align="center">
-  <img src="./src/Run_theory.png" style="width: 50%; height: 50%" />
+  <img src="./src/Run_theory.png" style="width: 80%; height: 80%" />
 </p>
+
 *Figure 1. Características dos eventos de seca por meio de uma função de um índice arbitrário*
 
 ## Drought characteristics
@@ -20,4 +21,5 @@ O SPI foi calculado através do método de função gamma [(James Adams, 2017)](
 <p align="center">
   <img src="./src/run_theory_spi.png" style="width: 80%; height: 80%" />
 </p>
+
 *Figure 2. Características dos eventos de seca obtidas do SPI*
