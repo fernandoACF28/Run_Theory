@@ -23,3 +23,14 @@ O SPI foi calculado através do método de função gamma [(James Adams, 2017)](
 </p>
 
 *Figure 2. Características dos eventos de seca obtidas do SPI*
+
+# References
+
+Amin Zargar, Rehan Sadiq, Bahman Naser, Faisal I. Khan, 2011. A review of drought indices. Environmental reviews 19, 333–349. https://doi.org/10.1139/a11-013
+
+Adams, J., 2017. climate_indices, an open source Python library providing reference implementations of commonly used climate indices, URL: https://github.com/monocongo/climate_indices.
+
+Liu, C, Yang, C, Yang, Q, 2021. Spatiotemporal drought analysis by the standardized precipitation index (SPI) and standardized precipitation evapotranspiration index (SPEI) in Sichuan Province, China | Scientific Reports [WWW Document]. URL https://www.nature.com/articles/s41598-020-80527-3 (accessed 9.2.22).
+
+V. Yevjevich, 1969. An objective approach to definitions and investigations of continental hydrologic droughts. VUJICA YEVJEVICH: Fort Collins, Colorado State University, 1967, 19 p. (Hydrology paper no. 23). Journal of Hydrology 7, 353–353. https://doi.org/10.1016/0022-1694(69)90110-3
+
