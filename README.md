@@ -9,10 +9,15 @@ intensidade e intervalo entre eventos. Na figura (1) podemos identificar visualm
 $$intensity = \frac{severity}{duration} \ \ \ \ \ \ \ \  \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  (1)$$ 
 *Figure 1. Características dos eventos de seca por meio de uma função de um índice arbitrário*
 
-Na figura 1, temos a duração, severidade e intervalo entre eventos.
+Na figura (1), temos a duração, severidade e intervalo entre eventos.
 
 <p align="center">
   <img src="./src/Run_theory.png" style="width: 50%; height: 50%" />
 </p>
 
-## SPI values in 
+## Drought characteristics
+O SPI foi calculado através do método de função gamma [(James Adams, 2017)](https://github.com/monocongo/climate_indices), e depois foi obtido os valores de severidade, duração e intensidade por meio da Run-Theory figura (2).
+<p align="center">
+  <img src="./src/run_theory_spi.png" style="width: 80%; height: 80%" />
+</p>
+*Figure 1. Características dos eventos de seca obtidas do SPI*
