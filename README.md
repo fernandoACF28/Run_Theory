@@ -3,7 +3,7 @@ A seca é um fenômeno complexo e cumulativo que ameaça a disponibilidade hídr
 A seca pode ser pode ter impactos meteorológico, agrícolas e hidrológicos [(Liu, C et al., 2021)](https://www.nature.com/articles/s41598-020-80527-3).
 
 ## Run Theory
-A Run Theory é utilizada para classificações de eventos, porém, pode trazer as características de fenômenos de seca [(V. Yevjevich, 1969)](), eventos e seca tem como características severidade, duração,
+A Run Theory é utilizada para classificações de eventos, porém, pode trazer as características de fenômenos de seca [(V. Yevjevich, 1969)](https://api.mountainscholar.org/server/api/core/bitstreams/5f26da05-d712-49bc-acc0-397ec0f70fef/content), eventos e seca tem como características severidade, duração,
 intensidade e intervalo entre eventos. Na figura 1 podemos identificar visualmente algumas destas características, a intensidade é a razão da severidade pela duração como pode ser visto na equação 1. 
 
 $$intensity = \frac{severity}{duration} \ \ \ \ \ \ \ \  \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  (1)$$ 
