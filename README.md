@@ -1,6 +1,6 @@
-# Identificação de Seca (Run-Theory)
+# Drought Identification (Run-Theory)
 Drought is a complex and cumulative phenomenon that threatens local water availability [(Amin Zargar et al., 2011)](https://cdnsciencepub.com/doi/10.1139/a11-013).
-Drought can have meteorological, agricultural, and hydrological impacts [(Liu, C et al., 2021)](https://www.nature.com/articles/s41598-020-80527-3).
+Drought can have meteorological, agricultural, and hydrological impacts [(Liu, C et al., 2021)](https://www.nature.com/articles/s41598-020-80527-3). The drought can be identification for *Standardized Precipitation Index* (SPI) and *Standardized Precipitation and Evapotranspiration Index* (SPEI).
 
 ## Run Theory
 Run Theory is used for event classifications and can be employed to obtain the characteristics of drought phenomena [(V. Yevjevich, 1969)](https://api.mountainscholar.org/server/api/core/bitstreams/5f26da05-d712-49bc-acc0-397ec0f70fef/content). Drought events are characterized by severity, duration, intensity, and the interval between events. In Figure (1), we can visually identify some of these characteristics, where intensity is the ratio of severity to duration, as shown in Equation 1.
